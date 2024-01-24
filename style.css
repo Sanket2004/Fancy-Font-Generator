@@ -1,0 +1,72 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.fancytext {
+    resize: none;
+    height: 60px;
+    width: 100%;
+    background: whitesmoke;
+    border:2px solid rgb(255, 255, 255);
+    outline:none;
+    padding: 15px;
+    backdrop-filter: blur(4px);
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    transition: all ease-in-out 0.3s;
+}
+
+.fancytext:focus{
+   border: 2px solid rgb(221, 220, 220);
+}
+
+
+#result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#result .input-group {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#result .input-group .input-group-append {
+    border: solid 2px rgb(221, 220, 220);
+    border-left: none;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    cursor: pointer;
+}
+
+#result .input-group input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 0;
+    border: solid 2px rgb(221, 220, 220);
+    outline: none;
+}
+
+.loadmore{
+    width: 140px;
+    height: 50px;
+    border: none;    
+    border: solid 2px rgb(221, 220, 220);
+    cursor: pointer;
+}
